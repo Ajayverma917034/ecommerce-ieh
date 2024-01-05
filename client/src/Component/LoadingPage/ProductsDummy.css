@@ -1,0 +1,91 @@
+.containerMain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    border: 2px solid #e2dada;
+    border-radius: 7px;
+    width: 200px;
+    height: 300px;
+    background-color: #fdfdfd;
+    transform: translate(1%, 9%);
+    padding: 0px 20px;
+    align-items: center;
+}
+
+.card h2 {
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 7px;
+
+}
+
+.LeftItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    width: 100%;
+    background: none;
+}
+
+
+
+
+.LeftItem p {
+    margin-top: 2px;
+    width: 90px;
+    padding: 2px 0;
+    height: 15px;
+}
+
+.card * {
+    background: linear-gradient(120deg, #e5e5e5 30%, #f2f2f2 38%, #f2f2f2 40%, #e5e5e5 48%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    animation: load 2s infinite;
+
+}
+
+@keyframes load {
+    100% {
+        background-position: -100% 0;
+    }
+}
+
+@media screen and (max-width: 1208px) {
+    .LeftItem1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 916px) {
+    .LeftItem1 {
+        display: none;
+    }
+
+    .card {
+        width: 180px;
+    }
+
+    .LeftItem2 {
+        display: none;
+    }
+
+}

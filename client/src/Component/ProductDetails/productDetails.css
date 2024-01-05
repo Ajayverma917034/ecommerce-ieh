@@ -1,0 +1,30 @@
+.submitReview {
+    border: none;
+    background-color: tomato;
+    font: 500 0.7vmax "Roboto";
+    border-radius: 20px;
+    padding: 0.6vmax 2vmax;
+    margin: 1vmax 0;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+}
+
+.submitReview:hover {
+    background-color: rgb(197, 68, 45);
+    transform: scale(1.1);
+}
+
+.submitDialog {
+    display: flex;
+    flex-direction: column;
+}
+
+.submitDialogTextArea {
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    margin: 1vmax 0;
+    outline: none;
+    padding: 1rem;
+    font: 300 1rem "Roboto";
+}

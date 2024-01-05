@@ -1,0 +1,56 @@
+.boxStyle {
+    display: flex;
+    height: 37px;
+    align-items: center;
+    border-radius: 3px;
+    color: #2565ae;
+    border: 1px solid #66d3fa;
+    /* background-color: #8eeaff; */
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.boxStyle input {
+    background-color: #fff;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    padding-left: 40px;
+    width: 12ch;
+    transition: all 0.5s;
+}
+
+.boxStyle:hover {
+    background-color: #fff;
+
+}
+
+
+.boxStyle input:focus {
+    width: 20ch;
+    /* a7eeff
+    8eeaff */
+}
+
+
+
+@media screen and (max-width: 499px) {
+
+    .boxStyle {
+        position: absolute;
+        top: 50px;
+        left: 30px;
+    }
+
+}
+
+@media screen and (max-width: 616px) {
+
+    .boxStyle input:focus {
+        width: 15ch;
+
+    }
+
+}

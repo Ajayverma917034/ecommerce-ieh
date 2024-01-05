@@ -1,0 +1,69 @@
+.oldimg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.oldimg .imgBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #ef9273;
+    margin: 5px;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.oldimg .imgBox svg {
+    display: block;
+    position: absolute;
+    color: tomato;
+    right: -10px;
+    top: -10px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.oldimg .imgBox svg :hover {
+    color: red;
+}
+
+.oldimg img {
+    width: 300px;
+
+}
+
+.StyleButton {
+    background: tomato;
+    background-color: #ef9273;
+    color: #fff;
+    transition: all 0.5s;
+    margin: 10px;
+}
+
+.StyleButton:hover {
+    background: tomato;
+    font-size: 15px;
+    box-shadow: 0 0 10px #ef9273;
+}
+
+#addBannerimg input {
+    background: transparent;
+
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+
+#addBannerimg>input::file-selector-button {
+    cursor: pointer;
+    width: 50%;
+    height: 5vh;
+    border: 1px solid #ef9273;
+    margin: 0%;
+    font-size: 15px;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+}

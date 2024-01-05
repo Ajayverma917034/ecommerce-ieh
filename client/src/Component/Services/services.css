@@ -1,0 +1,78 @@
+.serviceContainer {
+
+    min-height: 100vh;
+}
+
+.serviceContainer h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+    color: tomato;
+    margin-bottom: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+
+.serviceContainer .services {
+    justify-Content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+
+.serviceContainer .services .serviceCard {
+    width: 330px;
+    text-align: center;
+    background: #fff;
+    padding: 20px 15px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 20px;
+}
+
+.serviceContainer .services .serviceCard:hover {
+    background: #ef9273;
+}
+
+.serviceContainer .services .serviceCard .serviceContent {
+    transition: 0.3s;
+}
+
+.serviceContainer .services .serviceCard:hover .serviceContent {
+    transform: scale(1.07);
+}
+
+.serviceContainer .services .serviceCard .serviceContent .icon {
+    padding: 10px 0;
+    color: #ef9273;
+
+}
+
+.serviceContainer .services .serviceCard .serviceContent .icon>svg {
+    font-size: 40px;
+}
+
+.serviceContainer .services .serviceCard:hover .serviceContent .title {
+    color: white;
+}
+
+.serviceContainer .services .serviceCard:hover .serviceContent .icon {
+    color: white;
+}
+
+.serviceContainer .services .serviceCard .serviceContent .title {
+    padding: 10px 0;
+    font-size: 25px;
+    font-weight: 500;
+    color: tomato;
+    transition: 0.3s;
+}
+
+.serviceContainer .services .serviceCard .serviceContent p {
+    padding: 10px 3px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+}

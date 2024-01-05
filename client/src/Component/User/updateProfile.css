@@ -1,0 +1,81 @@
+.updateFormDesign {
+    width: 400px;
+    background-color: #fff;
+    padding: 30px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 0 50px #000;
+}
+
+.updateProfileName {
+    width: 100%;
+    border-bottom: 2px solid #878787;
+    padding: 10px;
+}
+
+.updateFormDesign input {
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+
+#updateProfileImage {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#updateProfileImage input {
+    padding-left: 30px;
+}
+
+#updateProfileImage>input {
+    display: flex;
+    padding: 0%;
+    border: 1px solid #878787;
+}
+
+#updateProfileImage>input::file-selector-button {
+    cursor: pointer;
+    width: 100%;
+    z-index: 2;
+    height: 5vh;
+    border: none;
+    margin: 0%;
+    font: 400 20px;
+    transition: all 0.5s;
+    padding: 0 1vmax;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgb(255, 255, 255);
+}
+
+#updateProfileImage>input::file-selector-button:hover {
+    background-color: rgb(235, 235, 235);
+}
+
+@media screen and (max-width: 616px) {
+    .updateFormDesign {
+        width: 400px;
+
+    }
+
+    .updateFormDesign input {
+        font-size: 18px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .updateFormDesign {
+        width: 300px;
+
+    }
+
+    .updateFormDesign input {
+        font-size: 16px;
+    }
+}

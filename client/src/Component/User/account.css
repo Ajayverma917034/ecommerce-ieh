@@ -1,0 +1,99 @@
+.mainDivAccount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+    flex-direction: column;
+}
+
+.mainDivAccount img {
+    width: 250px;
+    overflow: hidden;
+    object-fit: contain;
+    border-radius: 50%
+}
+
+.detailBox>div {
+    margin-top: 20px;
+    display: flex;
+}
+
+.detailBox>div>p {
+    margin-left: 5px;
+    font-size: 20px;
+
+    display: flex;
+}
+
+.linktoprofile>a {
+    text-decoration: none;
+    color: #1976d2;
+    font-size: 20px;
+    margin-left: 5px;
+    transition: all 0.5s;
+    font-weight: 600;
+}
+
+.linktoprofile>a:hover {
+    color: tomato;
+}
+
+.AddressDiv {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.AddressDiv>div>div {
+    margin-top: 20px;
+    display: flex;
+}
+
+.AddressDiv>div>div>p {
+    margin-left: 5px;
+    font-size: 20px;
+
+    display: flex;
+}
+
+@media screen and (max-width: 350px) {
+    .mainDivAccount {
+        padding-top: 30px;
+        justify-content: flex-start;
+    }
+
+    .mainDivAccount img {
+        width: 150px;
+    }
+
+    .detailBox .heading {
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .detailBox .heading_desc {
+        font-size: 14px;
+    }
+
+}
+
+@media screen and (max-width: 616px) {
+    .mainDivAccount {
+        padding-top: 30px;
+        justify-content: flex-start;
+    }
+
+    .mainDivAccount img {
+        width: 150px;
+    }
+
+    .detailBox .heading {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .detailBox .heading_desc {
+        font-size: 15px;
+    }
+
+}

@@ -1,0 +1,19 @@
+.img_width {
+    width: 100px;
+}
+
+@media screen and (max-width: 310px) {
+    .img_width {
+        width: 70px;
+    }
+
+    .detail_order p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .detail_order {
+        display: none;
+    }
+}

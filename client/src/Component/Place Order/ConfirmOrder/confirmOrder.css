@@ -1,0 +1,36 @@
+.mainGrid {
+    min-height: 100vh;
+    background-color: #404040;
+}
+
+.addressGrid {
+    background-color: #48484800;
+}
+
+.addressBox {
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+
+.CartItemsBox {
+    /* height: 50px; */
+    background-color: aqua;
+    margin: 30px;
+}
+
+.addressBox>div {
+    display: flex;
+    font-weight: 300;
+    color: #878787;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+
+}
+
+.totalPrice {
+    margin: 30px;
+    background-color: #fff;
+    padding: 10px 0;
+}

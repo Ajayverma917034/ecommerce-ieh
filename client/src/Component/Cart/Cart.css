@@ -1,0 +1,148 @@
+.leftBox {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cart_img {
+    width: 120px;
+}
+
+.cartInput {
+    display: flex;
+    align-items: center;
+    height: 20px;
+    margin-top: 15px;
+}
+
+
+.cartInput>button {
+    border: none;
+    background-color: #ef9273;
+    padding: 6px;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+}
+
+.cartInput>button:hover {
+    background-color: #fef9f8;
+}
+
+
+.cartInput>input {
+    text-align: center;
+    border: none;
+    width: 29px;
+    outline: none;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.74);
+    margin: 0 auto;
+}
+
+.right_box {
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+.right_box .price-box_cart {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-box_cart p {
+    font-size: 18px;
+    margin: 2px;
+}
+
+.price-box_cart span {
+    font-size: 18px;
+    margin: 2px;
+}
+
+.placeorderBtn {
+    display: flex;
+    place-content: end;
+}
+
+.placeorderBtn button {
+
+    background: #1976d2;
+    color: #fff;
+    padding: 5px;
+    /* width: 250px; */
+    padding: 0 20px;
+    height: 51px;
+    background-color: tomato;
+}
+
+.placeorderBtn button:hover {
+
+    background: green;
+}
+
+.right_box .remove_btn {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+
+@media screen and (max-width: 616px) {
+    .leftBox {
+        margin: 20px 0;
+    }
+
+    .cart_img {
+        width: 70px;
+    }
+
+    .right_box .quantityAdded p {
+        font-size: 17px;
+    }
+
+    .price-box_cart p {
+        font-size: 17px;
+        margin: 2px;
+    }
+
+    .price-box_cart span {
+        font-size: 17px;
+        margin: 2px;
+    }
+
+    .right_box {
+        margin-right: 0;
+    }
+
+    .right_box .remove_btn {
+        font-size: 14px;
+    }
+
+    .placeorderBtn button {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .price-box_cart p {
+        font-size: 13px;
+        margin: 2px;
+    }
+
+    .price-box_cart span {
+        font-size: 13px;
+    }
+
+    .right_box .remove_btn {
+        font-size: 10px;
+    }
+
+    .right_box .quantityAdded p {
+        font-size: 12px;
+    }
+
+    .placeorderBtn button {
+        font-size: 14px;
+    }
+}
